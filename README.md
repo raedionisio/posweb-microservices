@@ -44,8 +44,16 @@ ZUUL	      n/a (1)	(1)	UP (1) - 192.168.11.247:zuul:8080
 #### Diretamente
 - http://localhost:8070/products
 - http://localhost:8060/customers
+- 
+- http://localhost:8050/musics
+- http://localhost:8040/pictures
+- http://localhost:8030/videos
 
 #### Via Proxy (Zuul)
 - http://localhost:8080/api/products
 - http://localhost:8080/api/customers
+- 
+- http://localhost:8080/api/musics
+- http://localhost:8080/api/pictures
+- http://localhost:8080/api/videos
 
